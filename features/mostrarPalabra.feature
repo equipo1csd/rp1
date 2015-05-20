@@ -5,4 +5,4 @@ Feature:
 
 Scenario:
 	Given abrir la aplicacion
-	Then debo ver "f _ _ _ _ _"
+	Then debo ver "_ _ _ _ _ _"

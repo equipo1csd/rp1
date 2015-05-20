@@ -2,7 +2,12 @@ require 'sinatra'
 
 get '/' do
 
-@@mensaje = "F _ _ _ _ _"
+@@mensaje = "_ _ _ _ _ _"
 	erb :index	
+
+post '/ingresaletra' do
+	"Letra Ingresada"
+	erb :ingresaletra
+end
 
 end

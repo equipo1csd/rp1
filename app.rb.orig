@@ -1,0 +1,10 @@
+require 'sinatra'
+
+get '/' do
+<<<<<<< HEAD
+	"F"
+=======
+@@mensaje = "f _ _ _ _ _"
+	erb :index	
+>>>>>>> 9cb0c9e94db1a072ecec8e85935b067744ac3760
+end

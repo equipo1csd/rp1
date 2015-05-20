@@ -3,7 +3,16 @@ Given(/^abrir la aplicacion$/) do
 end
 
 Then(/^debo ver "(.*?)"$/) do |text|
-  "f _ _ _ _ _"
+  "_ _ _ _ _ _"
 end
+
+When(/^ingreso letra "(.*?)"$/) do |letra|
+  fill_in("letra",:with =>letra)
+end
+
+When(/^presiono ingresar$/) do
+  click_button("btningresa")
+end
+
 
 

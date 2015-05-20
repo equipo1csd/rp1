@@ -1,37 +1,45 @@
 {
   "Cucumber Features": {
     "coverage": {
+<<<<<<< HEAD
       "/home/kleer/csd/rp1/app.rb": [
+=======
+      "/home/kleer/csd/Ahorcado/app.rb": [
+>>>>>>> 9cb0c9e94db1a072ecec8e85935b067744ac3760
         1,
         null,
         1,
-        null,
-        3,
-        3,
-        null,
+        1,
+<<<<<<< HEAD
         null
       ],
       "/home/kleer/csd/rp1/features/step_definitions/my_steps.rb": [
+=======
         1,
-        3,
-        null,
-        null,
-        1,
-        3,
-        null,
-        null,
+        null
+      ],
+      "/home/kleer/csd/Ahorcado/features/step_definitions/my_steps.rb": [
+>>>>>>> 9cb0c9e94db1a072ecec8e85935b067744ac3760
         1,
         1,
         null,
         null,
-        1,
-        1,
+<<<<<<< HEAD
         null,
+        1,
+        1,
+        null
+      ],
+      "/home/kleer/csd/rp1/features/step_definitions/template_steps.rb": [
+=======
+        1,
+        1,
         null,
         null,
         null
       ],
-      "/home/kleer/csd/rp1/features/step_definitions/template_steps.rb": [
+      "/home/kleer/csd/Ahorcado/features/step_definitions/template_steps.rb": [
+>>>>>>> 9cb0c9e94db1a072ecec8e85935b067744ac3760
         1,
         0,
         null,
@@ -61,6 +69,10 @@
         null
       ]
     },
-    "timestamp": 1432143589
+<<<<<<< HEAD
+    "timestamp": 1432139328
+=======
+    "timestamp": 1432138264
+>>>>>>> 9cb0c9e94db1a072ecec8e85935b067744ac3760
   }
 }
