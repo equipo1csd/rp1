@@ -1,0 +1,23 @@
+Given(/^abrir la aplicacion$/) do
+  visit '/'
+end
+
+Then(/^debo ver "(.*?)"$/) do |text|
+  "_ _ _ _ _ _"
+end
+
+<<<<<<< HEAD
+When(/^ingreso letra "(.*?)"$/) do |letra|
+  fill_in("letra",:with =>letra)
+end
+
+When(/^presiono ingresar$/) do
+  click_button("btningresa")
+=======
+Given(/^ingrese una letra i$/) do
+  "f i _ _ _ _"
+>>>>>>> 634214778dfe53fb478d7040bf8676a8914a5e04
+end
+
+
+

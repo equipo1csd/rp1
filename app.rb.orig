@@ -1,10 +1,23 @@
 require 'sinatra'
+require './lib/ahorcado'
 
 get '/' do
 <<<<<<< HEAD
-	"F"
+
+@@mensaje = "_ _ _ _ _ _"
 =======
-@@mensaje = "f _ _ _ _ _"
+	@@mensaje = "f _ _ _ _ _"
+>>>>>>> 634214778dfe53fb478d7040bf8676a8914a5e04
 	erb :index	
->>>>>>> 9cb0c9e94db1a072ecec8e85935b067744ac3760
+
+post '/ingresaletra' do
+	"Letra Ingresada"
+	erb :ingresaletra
+end
+
+end
+
+post '/letra' do
+	ahorcado = Ahorcado.new
+	@@mensaje = ahorcado.validaLetra("i")
 end

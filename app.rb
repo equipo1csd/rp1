@@ -5,13 +5,16 @@ get '/' do
 
 @@mensaje = "_ _ _ _ _ _"
 	erb :index	
-
-post '/ingresaletra' do
-	"Letra Ingresada"
-	erb :ingresaletra
 end
 
-end
+  post '/ingresaletra' do
+	letra = params["letra"]
+    captura = Ahorcado.new
+    @@letra = captura.ingresaletra letra
+
+	erb :index
+  end
+
 
 post '/letra' do
 	ahorcado = Ahorcado.new
