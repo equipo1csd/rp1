@@ -2,11 +2,11 @@ require 'sinatra'
 require './lib/ahorcado'
 
 get '/' do
-	@@mensaje = "f _ _ _ _ _"
+	@@mensaje = "_ _ _ _ _ _"
 	erb :index	
 end
 
 post '/letra' do
 	ahorcado = Ahorcado.new
-	@@mensaje = ahorcado.validaLetra("i")
+	@@mensaje = ahorcado.validaLetra("f", @@mensaje)
 end
