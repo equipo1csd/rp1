@@ -1,0 +1,6 @@
+# Logfile created on 2015-05-20 12:31:23 -0300 by logger.rb/31641
+D, [2015-05-20T12:31:23.313671 #2302] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-05-20T12:32:22.198182 #2306] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-05-20T12:32:53.136504 #2310] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-05-20T12:33:43.636242 #2313] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-05-20T13:11:04.592944 #2402] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
