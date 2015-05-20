@@ -1,24 +1,33 @@
 {
   "Cucumber Features": {
     "coverage": {
-      "/home/kleer/csd/rp1/app.rb": [
+      "/home/kleer/csd/Ahorcado/app.rb": [
         1,
         null,
+        1,
         1,
         1,
         null
       ],
-      "/home/kleer/csd/rp1/features/step_definitions/my_steps.rb": [
+      "/home/kleer/csd/Ahorcado/features/step_definitions/my_steps.rb": [
         1,
         1,
         null,
         null,
+        1,
+        1,
         null,
-        1,
-        1,
+        null,
         null
       ],
-      "/home/kleer/csd/rp1/features/step_definitions/template_steps.rb": [
+      "/home/kleer/csd/Ahorcado/features/step_definitions/template_steps.rb": [
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/home/kleer/csd/Ahorcado/features/step_definitions/template_steps.rb": [
         1,
         0,
         null,
@@ -48,6 +57,6 @@
         null
       ]
     },
-    "timestamp": 1432139328
+    "timestamp": 1432138264
   }
 }

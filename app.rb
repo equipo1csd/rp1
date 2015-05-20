@@ -1,5 +1,8 @@
 require 'sinatra'
 
 get '/' do
-	"F"
+
+@@mensaje = "F _ _ _ _ _"
+	erb :index	
+
 end
