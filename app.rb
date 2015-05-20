@@ -1,4 +1,5 @@
 require 'sinatra'
+require './lib/ahorcado'
 
 get '/' do
 
@@ -10,4 +11,9 @@ post '/ingresaletra' do
 	erb :ingresaletra
 end
 
+end
+
+post '/letra' do
+	ahorcado = Ahorcado.new
+	@@mensaje = ahorcado.validaLetra("i")
 end
