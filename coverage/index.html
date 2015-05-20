@@ -14,27 +14,27 @@
       <img src="./assets/0.7.1/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2015-05-20T13:11:04-03:00">2015-05-20T13:11:04-03:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2015-05-20T13:40:30-03:00">2015-05-20T13:40:30-03:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">68.18%</span></span>
+    (<span class="covered_percent"><span class="red">67.74%</span></span>
      covered at
      <span class="covered_strength">
        <span class="red">
-         0.83
+         0.8
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>3</b> files in total.
-    <b>22</b> relevant lines. 
-    <span class="green"><b>15</b> lines covered</span> and
-    <span class="red"><b>7</b> lines missed </span>
+    <b>4</b> files in total.
+    <b>31</b> relevant lines. 
+    <span class="green"><b>21</b> lines covered</span> and
+    <span class="red"><b>10</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -52,22 +52,22 @@
       
       <tr>
         <td class="strong"><a href="#e76a33bbb0b0c599b277c18f1321a29218e2eb47" class="src_link" title="app.rb">app.rb</a></td>
-        <td class="green strong">100.0 %</td>
+        <td class="red strong">75.0 %</td>
+        <td>12</td>
+        <td>8</td>
         <td>6</td>
-        <td>4</td>
-        <td>4</td>
-        <td>0</td>
-        <td>1.0</td>
+        <td>2</td>
+        <td>0.8</td>
       </tr>
       
       <tr>
         <td class="strong"><a href="#2f89c5770b3ce926cf4381e68fef4894a66b7a43" class="src_link" title="features/step_definitions/my_steps.rb">features/step_definitions/my_steps.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>9</td>
-        <td>4</td>
-        <td>4</td>
+        <td>14</td>
+        <td>6</td>
+        <td>6</td>
         <td>0</td>
-        <td>1.0</td>
+        <td>1.2</td>
       </tr>
       
       <tr>
@@ -78,6 +78,16 @@
         <td>7</td>
         <td>7</td>
         <td>0.5</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#0f67b21a93bc04bbfa6122a4d6adc482cd890244" class="src_link" title="lib/ahorcado.rb">lib/ahorcado.rb</a></td>
+        <td class="red strong">66.67 %</td>
+        <td>8</td>
+        <td>3</td>
+        <td>2</td>
+        <td>1</td>
+        <td>0.7</td>
       </tr>
       
     </tbody>
@@ -99,11 +109,11 @@
         <div class="source_table" id="e76a33bbb0b0c599b277c18f1321a29218e2eb47">
   <div class="header">
     <h3>app.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
+    <h4><span class="red">75.0 %</span> covered</h4>
     <div>
-      <b>4</b> relevant lines. 
-      <span class="green"><b>4</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
+      <b>8</b> relevant lines. 
+      <span class="green"><b>6</b> lines covered</span> and
+      <span class="red"><b>2</b> lines missed.</span>
     </div>
   </div>
   
@@ -116,31 +126,67 @@
           <code class="ruby">require 'sinatra'</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="2">
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require './lib/ahorcado'</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="3">
+        <li class="covered" data-hits="1" data-linenumber="4">
           <span class="hits">1</span>
           
           <code class="ruby">get '/' do</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="4">
+        <li class="covered" data-hits="1" data-linenumber="5">
           <span class="hits">1</span>
           
-          <code class="ruby">@@mensaje = &quot;f _ _ _ _ _&quot;</code>
+          <code class="ruby">	@@mensaje = &quot;f _ _ _ _ _&quot;</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="5">
+        <li class="covered" data-hits="1" data-linenumber="6">
           <span class="hits">1</span>
           
           <code class="ruby">	erb :index	</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="6">
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
+          
+          <code class="ruby">post '/letra' do</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="10">
+          
+          
+          <code class="ruby">	ahorcado = Ahorcado.new</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="11">
+          
+          
+          <code class="ruby">	@@mensaje = ahorcado.validaLetra(&quot;i&quot;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
           
           
           <code class="ruby">end</code>
@@ -155,8 +201,8 @@
     <h3>features/step_definitions/my_steps.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>4</b> relevant lines. 
-      <span class="green"><b>4</b> lines covered</span> and
+      <b>6</b> relevant lines. 
+      <span class="green"><b>6</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -194,8 +240,8 @@
           <code class="ruby">Then(/^debo ver &quot;(.*?)&quot;$/) do |text|</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="6">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="2" data-linenumber="6">
+          <span class="hits">2</span>
           
           <code class="ruby">  &quot;f _ _ _ _ _&quot;</code>
         </li>
@@ -212,7 +258,37 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="9">
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
+          
+          <code class="ruby">Given(/^ingrese una letra i$/) do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  &quot;f i _ _ _ _&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="14">
           
           
           <code class="ruby"></code>
@@ -393,6 +469,72 @@
         </li>
       
         <li class="never" data-hits="" data-linenumber="27">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="0f67b21a93bc04bbfa6122a4d6adc482cd890244">
+  <div class="header">
+    <h3>lib/ahorcado.rb</h3>
+    <h4><span class="red">66.67 %</span> covered</h4>
+    <div>
+      <b>3</b> relevant lines. 
+      <span class="green"><b>2</b> lines covered</span> and
+      <span class="red"><b>1</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class Ahorcado</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">	def validaLetra(letra)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="5">
+          
+          
+          <code class="ruby">		return &quot;f i _ _ _ _&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby">	end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
           
           
           <code class="ruby">end</code>
