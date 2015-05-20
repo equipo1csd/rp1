@@ -1,0 +1,53 @@
+{
+  "Cucumber Features": {
+    "coverage": {
+      "/home/kleer/csd/rp1/app.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/home/kleer/csd/rp1/features/step_definitions/my_steps.rb": [
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/home/kleer/csd/rp1/features/step_definitions/template_steps.rb": [
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null
+      ]
+    },
+    "timestamp": 1432139328
+  }
+}
