@@ -21,4 +21,7 @@ class Ahorcado
 
 	end
 
+	def ingresaletra(letra)		
+       return "Letra Ingresada"		
+	end
 end

@@ -2,7 +2,12 @@ require 'sinatra'
 require './lib/ahorcado'
 
 get '/' do
+<<<<<<< HEAD
 	@@mensaje = "_ _ _ _ _ _"
+=======
+
+@@mensaje = "_ _ _ _ _ _"
+>>>>>>> fd0972aeef007f529892e25e1aeab6a7970694b3
 	erb :index	
 end
 

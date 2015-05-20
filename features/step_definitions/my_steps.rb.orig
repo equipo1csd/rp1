@@ -6,12 +6,17 @@ Then(/^debo ver "(.*?)"$/) do |text|
   "_ _ _ _ _ _"
 end
 
+<<<<<<< HEAD
+When(/^ingreso letra "(.*?)"$/) do |arg1|
+  "f _ _ _ _ _"
+=======
 When(/^ingreso letra "(.*?)"$/) do |letra|
   fill_in("letra",:with =>letra)
 end
 
 When(/^presiono ingresar$/) do
   click_button("btningresa")
+>>>>>>> fd0972aeef007f529892e25e1aeab6a7970694b3
 end
 
 

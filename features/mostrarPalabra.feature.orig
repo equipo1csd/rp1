@@ -1,0 +1,15 @@
+Feature:
+	Como usuario
+	necesito una aplicacion
+	para jugar ahorcado.
+
+Scenario:
+	Given abrir la aplicacion
+	Then debo ver "_ _ _ _ _ _"
+<<<<<<< HEAD
+
+
+
+
+=======
+>>>>>>> fd0972aeef007f529892e25e1aeab6a7970694b3
